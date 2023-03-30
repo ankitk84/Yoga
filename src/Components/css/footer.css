@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+
+    background-color: black;
+}
+.img{
+    width: 2vw;
+    height: 4vh;
+    margin: 2px;
+}
+.element{
+    display: flex;
+    flex-direction: row;
+    color: azure;
+    text-decoration: none;
+
+}
+.txt{
+    margin: 3px;
+    font-weight: bold;
+}

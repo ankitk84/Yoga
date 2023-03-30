@@ -1,0 +1,53 @@
+*{
+    font-family: 'Rubik', sans-serif
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:50px;
+}
+.header{
+    text-align: center;
+
+}
+.asanacard{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.name{
+    color: black;
+    font-size: 25px;
+}
+.asanaimg{
+    width: 80%;
+    height: 250px;
+    box-shadow: rgba(83, 233, 138, 0.25) 0px 30px 60px -12px inset, rgba(140, 238, 161, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    margin: 15px;
+    margin-top: 0px;
+}
+.asana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+     
+    height: 30%;
+   
+    padding: 10px;
+    background-color: #CEEDC7;
+    text-decoration: none;
+    box-shadow: rgba(131, 205, 61, 0.16) 0px 10px 36px 0px, rgba(43, 192, 53, 0.06) 0px 0px 0px 1px;
+    border-radius: 20px;
+}
+.asana:hover{
+    background-color: rgb(190, 214, 185);
+    opacity: 0.5;
+}
