@@ -7,6 +7,8 @@ import Backward from './Components/js/backward';
 import Balancing from './Components/js/balancing';
 import Streching from './Components/js/streching';
 import AsanDetail from './Components/js/AsanDetail';
+import Performance from './Components/js/performance';
+import Contact from './Components/js/contact';
 function App() {
 
   return (
@@ -20,6 +22,9 @@ function App() {
                  <Route exact path='/balancing' element={<Balancing/>}></Route>
                  <Route exact path='/stretching' element={<Streching />}></Route>
                  <Route exact path='/asanDetail' element={<AsanDetail />}></Route>
+                 <Route exact path='/performance' element={<Performance />}></Route>
+                 <Route exact path='/contact' element={<Contact />}></Route>
+
           </Routes>
           
        

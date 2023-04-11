@@ -7,23 +7,83 @@
 
 .imageItems {
   width: 100vw;
-  height: '60%';
-  /* transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1); */
+  height: '50%';
 }
 
 .con {
   position: relative;
+  width: 100%;
   
 }
-
+.crow{
+  width: 100%;
+  height: 600px;
+}
 .crow-img{
-  height: 790px;
-  /* width: 100px; */
-
+  width: 100%;
 } 
+
+.homeContent{
+  margin: 10px;
+  text-align: center;
+}
+.content2{
+  text-align: justify;
+  margin: 20px 40px;
+}
+/* Mentor  */
+.mentor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding: 12px;
+  border: 6px solid rgb(7, 2, 91);
+  border-radius: 20px;
+}
+.heading{
+  /* margin-bottom: 10px; */
+}
+.about{
+  display: flex;
+  justify-content: space-around;
+
+}
+.menImg{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 20px; */
+} 
+.mimg{
+  width: 60%;
+  height: 70%;
+  border-radius: 60%;
+  transition: all 1s ease-in-out;
+}
+.mimg:hover{
+  transform: scale(1.1);
+
+}
+.mentorName{
+  margin: 13px;
+  font-size: large
+}
+.mentorContent{
+  padding: 10px;
+  width: 65%;
+  margin-top: 13px;
+}
 
 .fix{
   /* object-fit: none; */
-  /* top:10%; */
-  object-position: 0px -140px
+  height: 750px;
+  top:10%;
+  object-position: 0px -180px
+}
+.video{
+  margin-bottom: 25px;
+  border-radius: 30px;
 }

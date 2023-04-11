@@ -1,0 +1,14 @@
+.asanaName{
+    font-size: 32px;
+
+}
+.asanaImg{
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+}
+.content{
+    width: 60%;
+    margin: 30px;
+
+}

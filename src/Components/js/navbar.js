@@ -17,19 +17,21 @@ export default function Navbar() {
         <div className="right">
           <ul className='listitems'>
             <a className='item' href="/"><li className='itemstyle'>Home</li></a>
-            <a className='item'><li href="" className='itemstyle'>Performances</li></a>
+            <a className='item' href="performance"><li  className='itemstyle'>Performances</li></a>
             <NavDropdown title="Yogi's" id="basic-nav-dropdown" className='item' style={{marginTop:22}}>
               <NavDropdown.Item href="forward">Forward</NavDropdown.Item>
               <NavDropdown.Item href="backward">
                 Backward
               </NavDropdown.Item>
-              <NavDropdown.Item href="balancing">Balancing</NavDropdown.Item>
-        
+              <NavDropdown.Item href="balancing">Balancing</NavDropdown.Item>        
               <NavDropdown.Item href="stretching">
                 Streching
               </NavDropdown.Item>
+              <NavDropdown.Item href="other">
+                Other
+              </NavDropdown.Item>
             </NavDropdown>
-            <a className='item'><li className='itemstyle'>Contact Us</li></a>            
+            <a className='item' href="contact"><li className='itemstyle'>Contact Us</li></a>            
           </ul>
       
         </div>

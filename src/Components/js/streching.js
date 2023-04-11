@@ -1,15 +1,23 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import Asana from './asana'
-import data from '../database.json'
+import data from '../data/database.json'
 import '../css/yogi.css'
+import { useDispatch, useSelector } from 'react-redux'
+import { setSwitch } from '../../reducer/Switch'
 export default function Streching() {
+  const option = useSelector(state=>state.option)
+  const dispatch=useDispatch()
+
+  useEffect(()=>{
+    dispatch(setSwitch(3)) 
+  })
   return (
     <div className="con">
     <h1 className='header'>Streching</h1>
     <div className='asanacard' style={{display:'flex'}}>
     {
         data.streching.map((ele,ind)=>
-            <Asana img={ele.imgurl} name={ele.name} key={ind} alt={ele.alt}
+            <Asana ind={ind} hover={ind==option?true:false} img={ele.imgurl} name={ele.name} key={ind} alt={ele.alt}
 bottomText={ele.smalldes} linkC={ele.linkC}/> 
         )
     }

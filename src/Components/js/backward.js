@@ -1,6 +1,6 @@
-import React, { useEffect, useSyncExternalStore } from 'react'
+import React, { useEffect} from 'react'
 import Asana from './asana'
-import data from '../database.json'
+import data from '../data/database.json'
 import '../css/yogi.css'
 import { useDispatch, useSelector } from 'react-redux'
 import { setSwitch } from '../../reducer/Switch'
@@ -18,7 +18,7 @@ export default function Backward() {
     <div className='asanacard' style={{display:'flex'}}>
     {
         data.backward.map((ele,ind)=>
-            <Asana ind={ind} hover={ind==option?true:false}  img={ele.imgurl} name={ele.name} key={ind} alt={ele.alt}
+            <Asana ind={ind} hover={ind==option?true:false} img={ele.imgurl} name={ele.name} key={ind} alt={ele.alt}
 bottomText={ele.smalldes} linkC={ele.linkC}/> 
         )
     }

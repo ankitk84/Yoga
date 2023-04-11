@@ -5,8 +5,7 @@ const setOption=createSlice({
     initialState:-1,
     reducers:{
         setOpt:(state,action)=>{
-            
-          return action.payload
+        return action.payload
         }
     }
 })

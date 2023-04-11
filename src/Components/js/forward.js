@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Asana from './asana'
-import data from '../database.json'
+import data from '../data/database.json'
 import '../css/yogi.css'
 import { useDispatch, useSelector } from 'react-redux'
 import { setSwitch } from '../../reducer/Switch'

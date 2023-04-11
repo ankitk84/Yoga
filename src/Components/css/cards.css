@@ -21,24 +21,24 @@
     margin-top: 100px;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: all 1s ease-in;
+}
+.card:hover{
+    background-color: #8cdcf3;
+    box-shadow: rgb(12, 120, 235) 0px 20px 30px -10px;
+    transform: scale(1.1); 
 }
 .imageCircular{
     height: 132px;
     width: 142px;
     border-radius: 30px;
     margin: 20px;
-    /* transition: width 2s; */
+    transition: all 1s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-/* .imageCircular:hover{   
-    height: 170px;
-    width: 250px;
-    margin-top: -10px;
-    margin-bottom: 30px;
-    transform: linear 2s;
-    transition-timing-function: ease-out;
-    margin: 0px;  
-} */
+.imageCircular:hover{   
+    transform: scale(1.1); 
+}
 .icons{
     height: 22px;
     width: 22px;
