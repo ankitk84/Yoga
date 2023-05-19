@@ -14,7 +14,7 @@ export default function Forward() {
   })
   return (
     <div className="con">
-    <h1 className='header'>Forward Asana</h1>
+    <h1 className='header type'>Forward Asana</h1>
     <div className='asanacard' style={{display:'flex',flexDirection:'row'}}>
     {
         data.forward.map((ele,ind)=>

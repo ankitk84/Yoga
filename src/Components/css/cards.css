@@ -3,6 +3,7 @@
     /* flex-direction: 'row'; */
 }
 .cards{
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;  
@@ -59,5 +60,28 @@
 
 
 
-
+/* Media Quieries */
+@media screen and (max-width:980px) {
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 30%;
+    }
+}
+@media screen and (max-width:730px) and (min-width:550px){
+    .card{
+        width: 40%;
+    }
+}
+@media screen and (max-width:550px) and (min-width:300px){
+    .card{
+        width: 53%;
+    }
+}
+@media screen and (max-width:420px) and (min-width:300px){
+    .card{
+        width: 69%;
+    }
+}
 

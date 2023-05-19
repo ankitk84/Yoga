@@ -24,13 +24,19 @@ export default function AsanDetail() {
   return (
     <>
     { option!=-1?
-    <div style={{display:'flex',height:'100vh',
-    flexDirection:"column",
-    justifyContent:"space-around",
-    marginTop:'90px', alignItems:"center"}}>
+    <div style={{display:'flex',
+    marginTop:'10px', alignItems:"center"}}>
+    <div className="components">
+      <div className="component">
       <p className='asanaName'>{asanData[option].name}</p>
-      <img className='asanaImg' style={{height:'65%',width:'50%'}} src={asanData[option].imgurl}></img>
+      </div>
+      <div className="component">
+      <img className='asanaImg'  src={asanData[option].imgurl}></img>
+      </div>
+      <div className="component">
       <p className='content' >{asanData[option].compdes}</p>
+      </div>
+      </div>
     </div>:""
     }
     </>

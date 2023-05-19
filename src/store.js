@@ -5,7 +5,7 @@ import Switch from "./reducer/Switch";
  const store=configureStore({
     reducer:{
         option:OptionReducer,
-        switch:Switch
+        switch:Switch,
     }
 })
 export  default store

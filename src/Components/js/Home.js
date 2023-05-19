@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Card from "./cards";
 import "../css/home.css";
 import "../css/cards.css";
-import db from "../data/database.json";
 
 export default function Home(props) {
   return (
@@ -84,12 +83,12 @@ export default function Home(props) {
         </div>
       </div>
       <div className="homeContent">
-        <h1>
+        <p className="main-heading">
           "Yoga is the journey of the self, to the self, through the self"
-        </h1>
-        <h5 className="content1">
+        </p>
+        {/* <p className="content1">
           Welcome to the official website of the Yoga Team at NIT Kurukshetra!
-        </h5>
+        </p> */}
         <p className="content2">
           Yoga connects body, mind and soul. It helps not only in achieving good
           health but also in gaining inner peace and becoming self-aware. We
@@ -151,7 +150,7 @@ export default function Home(props) {
           </div>
         </div>
       </div>
-      <div className="cards" style={{ display: "flex", flexDirection: "row" }}>
+      <div className="cards">
         <Card
           name={"Tushar Ginotra"}
           image={"https://i.ibb.co/NmLpx9K/Tus.jpg"}
@@ -178,14 +177,7 @@ export default function Home(props) {
         />
       </div>
 
-      <iframe
-      className="video"
-        width="590"
-        height="345"
-        src="https://www.youtube.com/embed/QBKZsPegQ9w"
-        frameborder="0"
-        allowfullscreen
-      ></iframe>
+      
     </div>
   );
 }

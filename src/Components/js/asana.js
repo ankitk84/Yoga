@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { Link } from "react-router-dom";
-// import { setOption } from '../../../reducer/option.js/Option';
 import { setOpt } from '../../reducer/Option';
-
 import '../css/yogi.css'
+
 export default function Asana(props) {
    const dispatch=useDispatch()
    
@@ -19,12 +18,11 @@ export default function Asana(props) {
   return (
 
    <div onMouseEnter={onHover}
-   onMouseLeave={onLeave} style={{width:'25%',height:'400px',margin:'30px'}} >
+   onMouseLeave={onLeave} className='asanaEle' >
      <Link className="asana" to="/asanDetail" >        
-        <img className='asanaimg' src={props.img} alt={props.alt}/>
-      
+        <img className='asanaimg' src={props.img} alt={props.alt}/>     
         <p className='name'>{props.name}</p>
-        <p className='name' style={{fontSize:14}}>{props.bottomText}</p>
+        <p className='name font'>{props.bottomText}</p>
      </Link>
      {
          props.hover==true?<p className='onhover'

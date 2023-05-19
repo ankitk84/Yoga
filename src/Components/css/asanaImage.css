@@ -1,0 +1,43 @@
+.asanaImageBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 20px;
+}
+.asanaImage{
+    width: 70vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+/* Media-queries */
+@media screen and (max-width: 1000px) {
+    .asanaImage{
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 800px) {
+    .asanaImage{
+        width: 80vw;
+        height: 70vh;
+    }
+}
+@media screen and (max-width: 700px) {
+    .asanaImage{
+        width: 84vw;
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 500px) {
+    .asanaImage{
+        width: 85vw;
+        height: 50vh;
+    }
+}
+@media screen and (max-width: 400px) {
+    .asanaImage{
+        width: 90vw;
+        height: 45vh;
+    }
+}

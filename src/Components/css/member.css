@@ -1,0 +1,19 @@
+.blocks{
+    margin-top: 10px;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex- */
+}
+.memberType{
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+
+
+

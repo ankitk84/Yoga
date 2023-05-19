@@ -1,10 +1,11 @@
 import React from 'react'
+import '../css/memberCard.css'
 
 export default function MemberCard(props) {
   return (
-    <div>
-      <img src={props.image} alt="" />
-      <p>{props.name}</p>
+    <div className='memberCard'>
+      <img className='memberImg' src={props.image} alt="" />
+      <p className='memberName'>{props.name}</p>
     </div>
   )
 }

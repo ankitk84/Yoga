@@ -4,11 +4,45 @@
 }
 .asanaImg{
     height: 50%;
-    width: 50%;
+    width: 55%;
     border-radius: 20px;
 }
 .content{
-    width: 60%;
+    width: 45%;
     margin: 30px;
-
+    text-align: justify;
+    font-size: 20px;
 }
+.components{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Media-queries
+ */
+
+ @media screen and (max-width: 1000px) {
+    .asanaImg{
+        width: 65%;
+    }
+    .content{
+        width: 55%;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .asanaImg{
+        width: 80%;
+    }
+    .content{
+        width: 75%;
+        font-size: 15px;
+    }
+ }

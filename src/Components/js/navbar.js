@@ -1,37 +1,43 @@
 import React from 'react'
 import '../css/navbar.css'
-import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+  const navigate = useNavigate();
+  
+  const setPathForOther = (name)=>{
+    navigate(`/${name}`)
+  }
   return (
     
       <div className="nav">
         <div className="left">
             <img className='logo' src={"https://i.ibb.co/T4wW0Hd/nitlogo.png"} />
             <div className="header">
-            <p>YOGA TEAM</p>
-            <p>National Institute of Technology, Kurukshetra</p>
+            <span>YOGA TEAM</span><br/>
+            <a className='item' href='https://nitkkr.ac.in/' target='_blank'>National Institute of Technology, Kurukshetra</a>
             </div>
         </div>
         <div className="right">
           <ul className='listitems'>
-            <a className='item' href="/"><li className='itemstyle'>Home</li></a>
-            <a className='item' href="performance"><li  className='itemstyle'>Performances</li></a>
-            <NavDropdown title="Yogi's" id="basic-nav-dropdown" className='item' style={{marginTop:22}}>
-              <NavDropdown.Item href="forward">Forward</NavDropdown.Item>
-              <NavDropdown.Item href="backward">
-                Backward
+            <a className='item' onClick={()=>setPathForOther("")} href="#"><li className='itemstyle'>Home</li></a>
+            <a className='item' href="#" onClick={()=>setPathForOther('performance')} ><li  className='itemstyle'>Performances</li></a>
+
+            <NavDropdown title="Yogi" id="basic-nav-dropdown" style={{marginTop:2}} >
+              <NavDropdown.Item href="/yogi/forward"  >Forward</NavDropdown.Item>
+              <NavDropdown.Item href="/yogi/backward"  >
+              Backward
               </NavDropdown.Item>
-              <NavDropdown.Item href="balancing">Balancing</NavDropdown.Item>        
-              <NavDropdown.Item href="stretching">
-                Streching
+              <NavDropdown.Item href="/yogi/balancing"  >Balancing</NavDropdown.Item>        
+              <NavDropdown.Item href="/yogi/stretching"  >
+              Streching
               </NavDropdown.Item>
-              <NavDropdown.Item href="other">
+              <NavDropdown.Item href="/yogi/other"  >
                 Other
               </NavDropdown.Item>
             </NavDropdown>
-            <a className='item' href="contact"><li className='itemstyle'>Contact Us</li></a>            
+            <a className='item' onClick={()=>setPathForOther("contact")} href="#"><li className='itemstyle'>Contact Us</li></a>            
           </ul>
       
         </div>

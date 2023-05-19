@@ -1,14 +1,33 @@
 import React from "react";
 import "../css/gallery.css";
-
+import { Link, useNavigate } from "react-router-dom";
 const Gallery = (props) => {
+  const navigate = useNavigate();
+  const showImage = (image) => {
+    navigate('/asanaimage',{state:image});
+  };
   return (
     <div className="performance">
       <h1 className="title">{props.heading}</h1>
-      <div className="gallery" style={{ display: 'flex', overflowX: 'scroll', width:'100vw', height:'50vh', margin:'15px', border:'4px solid rgb(7, 2, 91)', borderRadius:'10px'}}>
+      <div
+        className="gallery"
+        style={{
+          display: "flex",
+          overflowX: "scroll",
+          height: "25vh",
+          margin: "15px",
+          borderRadius: "10px",
+        }}
+      >
         {props.images.map((image, index) => (
-        <img className='galleryimg' key={index} src={image.imgurl} alt={`Image ${index}`} />
-      ))}
+          <img
+            key={index}
+            className="galleryimg"
+            src={image.imgurl}
+            onClick={()=>showImage(image.imgurl)}
+            alt={`Image ${index}`}
+          />
+        ))}
       </div>
       <iframe
         className="perVideo"
