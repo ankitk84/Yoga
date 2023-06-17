@@ -34,7 +34,7 @@ export default function Navbar() {
               Streching
               </NavDropdown.Item>
               <NavDropdown.Item href="/yogi/other"  >
-                Other
+                Members
               </NavDropdown.Item>
             </NavDropdown>
             <a className='item' onClick={()=>setPathForOther("contact")} href="#"><li className='itemstyle'>Contact Us</li></a>            

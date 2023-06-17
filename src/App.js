@@ -9,11 +9,12 @@ import Streching from './Components/js/streching';
 import AsanDetail from './Components/js/AsanDetail';
 import Performance from './Components/js/performance';
 import Contact from './Components/js/contact';
-import Other from './Components/js/other'
+import Members from './Components/js/other'
 import AsanaImage from './Components/js/asanaImage'
 import { useSelector } from 'react-redux';
+import data from "./Components/data/database.json"
+
 function App() {
-  const path = '/yogi'
   return (
     <div style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
      <Navbar/>
@@ -28,7 +29,7 @@ function App() {
                  <Route exact path={`/asanDetail`} element={<AsanDetail />}></Route>
                  <Route exact path='/performance' element={<Performance />}></Route>
                  <Route exact path='/contact' element={<Contact />}></Route>
-                 <Route exact path={`/yogi/other`} element={<Other />}></Route>
+                 <Route exact path={`/asanaDetail`} element={<Members />}></Route>
                  <Route exact path ='/asanaimage' element ={ <AsanaImage/>}></Route>
 
           </Routes>     

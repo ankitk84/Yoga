@@ -24,11 +24,6 @@ export default function Asana(props) {
         <p className='name'>{props.name}</p>
         <p className='name font'>{props.bottomText}</p>
      </Link>
-     {
-         props.hover==true?<p className='onhover'
-         style={{color:'black', fontSize:'40px'
-         }}>Open</p>:""
-        }
      </div>
   )
 }

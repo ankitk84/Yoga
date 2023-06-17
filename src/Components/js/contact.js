@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../css/contactForm.css'
 export default function Contact() {
+
   return (
       <div className="form">
         <h1 className='heading'>Send Your Message</h1>
@@ -26,3 +27,4 @@ export default function Contact() {
     </div>
   )
 }
+

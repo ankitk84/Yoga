@@ -127,7 +127,7 @@ export default function Home(props) {
           <div className="menImg">
             <img
               className="mimg"
-              src="https://i.ibb.co/NmLpx9K/Tus.jpg"
+              src="https://i.ibb.co/98bHG5n/rita-mam.png"
               alt=""
             />
             <p className="mentorName">Mrs Rita</p>

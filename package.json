@@ -11,6 +11,7 @@
     "install": "^0.13.0",
     "mongoose": "^7.0.3",
     "mongoose-type-email": "^1.1.2",
+    "nodemailer": "^6.9.2",
     "npm": "^9.6.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",

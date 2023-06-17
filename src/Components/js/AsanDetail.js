@@ -27,13 +27,11 @@ export default function AsanDetail() {
     <div style={{display:'flex',
     marginTop:'10px', alignItems:"center"}}>
     <div className="components">
-      <div className="component">
+      <div className="leftCompo">
       <p className='asanaName'>{asanData[option].name}</p>
       </div>
-      <div className="component">
+      <div className="rightCompo">
       <img className='asanaImg'  src={asanData[option].imgurl}></img>
-      </div>
-      <div className="component">
       <p className='content' >{asanData[option].compdes}</p>
       </div>
       </div>

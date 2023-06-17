@@ -2,151 +2,191 @@
     "Alumini":[
         {
             "Name":"Sushant",
-            "imgurl":"https://i.ibb.co/Fnx44XZ/IMG-1086.jpg"
+            "imgurl":" https://i.ibb.co/9s5Wk99/IMG-1086.jpg",
+            "year":"2021"
         }, 
         {
             "Name":"Nityanand Shah",
-            "imgurl":"https://i.ibb.co/Sf4hMNr/IMG-20230415-175703.jpg"
+            "imgurl":"https://i.ibb.co/ZWrZ8nV/IMG-20230415-175703.jpg",
+            "year":"2022"
         }, 
         {
             "Name":"Mony Singh",
-            "imgurl":"https://i.ibb.co/X7qRJWT/Mony-Singh.jpg"
+            "imgurl":"https://i.ibb.co/XYpCLVT/Mony-Singh.jpg",
+            "year":"2019"
         }, 
         {
             "Name":"Munish Kumar",
-            "imgurl":"https://i.ibb.co/H7H4M6t/Munish-Kumar.jpg"
+            "imgurl":"https://i.ibb.co/wN2Zdv3/Munish-Kumar.jpg",
+            "year":"2019"
         }, 
         {
             "Name":"Nandini",
-            "imgurl":"https://i.ibb.co/VjnRtjV/Nandini.jpg"
+            "imgurl":"https://i.ibb.co/2Kx64Xq/Nandini.jpg",
+            "year":"2022"
         }, 
         {
             "Name":"Pawan Kumar",
-            "imgurl":"https://i.ibb.co/g3SPqWR/Pawan-Kumar.jpg"
+            "imgurl":"https://i.ibb.co/6y6jJz9/Pawan-Kumar.jpg",
+            "year":"2019"
+        },
+        {
+            "Name":"Tushar",
+            "imgurl":"https://i.ibb.co/6yxQNY0/IMG-20230321-092645.jpg",
+            "year":"2023"
+        },
+        {
+            "Name":"Rishabh",
+            "imgurl":"https://i.ibb.co/0nWJW85/rishab-sir.jpg",
+            "year":"2023"
+        },
+        {
+            "Name":"Anshu Bisht",
+            "imgurl":"https://i.ibb.co/8Dz8zd6/IMG-20230321-093533.jpg",
+            "year":"2023"
         }
     ],
     "4th year":[
         {
-            "Name":"Tushar",
-            "imgurl":"https://i.ibb.co/X4sH2Ff/IMG-20230321-092645.jpg"
-        },
-        {
-            "Name":"Rishabh",
-            "imgurl":"https://i.ibb.co/GxX1TR3/IMG-20230409-WA0013.jpg"
-        },
-        {
-            "Name":"Himanshu",
-            "imgurl":"https://i.ibb.co/pfB7bYf/Snapchat-1890241698.jpg"
-        },
-        {
-            "Name":"Aman",
-            "imgurl":"https://i.ibb.co/8gQ40Xn/IMG-5918.jpg"
-        },
-        {
-            "Name":"Ayush",
-            "imgurl":"https://i.ibb.co/fMwpLc6/Ayush.jpg"
-        }
-    ],
-    "3rd year":[
-        {
             "Name":"Rishi",
-            "imgurl":"https://i.ibb.co/K28Q5b9/Rishi.jpg"
+            "imgurl":"https://i.ibb.co/2cY3TBF/Rishi.jpg",
+            "year":"2024"
         },   
         {
             "Name":"Nekiram",
-            "imgurl":"https://i.ibb.co/0MK0g6Q/Nekiram.jpg"
+            "imgurl":"https://i.ibb.co/R0Vv2p4/Nekiram.jpg",
+            "year":"2024"
         },   
         {
             "Name":"Laxmi",
-            "imgurl":"https://i.ibb.co/zSSbNFL/Laxmi.jpg"
+            "imgurl":"https://i.ibb.co/61thhdS/Laxmi.jpg",
+            "year":"2024"
         },   
         {
             "Name":"Priyanka",
-            "imgurl":""
+            "imgurl":"https://i.ibb.co/FqYb0MZ/priyanka.jpg",
+            "year":"2024"
         },   
         {
             "Name":"Ankit",
-            "imgurl":"https://i.ibb.co/Kq5SRFw/Ankit.jpg"
-        },   
+            "imgurl":"https://i.ibb.co/b3wFyq9/Ankit.jpg",
+            "year":"2024"
+        }, 
+        {
+            "Name":"Pankaj",
+            "imgurl":"https://i.ibb.co/wNKhphQ/Pankaj.jpg",
+            "year":"2024"
+        },  
         {
             "Name":"Riya",
-            "imgurl":"https://i.ibb.co/DC602TG/Riya.jp"
+            "imgurl":"https://i.ibb.co/qsgW3XX/Riya.jpg",
+            "year":"2024 MCA"
         },   
         {
             "Name":"Shobha",
-            "imgurl":"https://i.ibb.co/y6FP28p/Shobha.jpg"
-        }       
+            "imgurl":"https://i.ibb.co/WVc4RkC/Shobha.jpg",
+            "year":"2024"
+        }
     ],
-    "2nd year":[
+
+    "Members":[
+        
         {
             "Name":"Jyoti",
-            "imgurl":"https://i.ibb.co/vmXRZbh/IMG-20230415-111308.jpg"
+            "imgurl":"https://i.ibb.co/3YrLL35/IMG-20230415-111308.jpg",
+            "year":"2025"
         },
         {
             "Name":"Srivalli",
-            "imgurl":"https://i.ibb.co/qRDwHhg/IMG-20230416-124539.jpg"
+            "imgurl":"https://i.ibb.co/s1DdFy4/IMG-20230416-124539.jpg",
+            "year":"2025"
         },   
         {
             "Name":"Shani",
-            "imgurl":"https://i.ibb.co/YkZyGHY/IMG-20230409-WA0023.jpg"
-        },   
+            "imgurl":"https://i.ibb.co/8j2HdSG/IMG-20230409-WA0023.jpg",
+            "year":"2025"
+        }, 
         {
             "Name":"Ojasvi",
-            "imgurl":"https://i.ibb.co/6tYNCjg/IMG-20230410-WA0001.jpg"
+            "imgurl":"https://i.ibb.co/L6fP957/IMG-20230410-WA0001.jpg",
+            "year":"2025"
         },   
         {
             "Name":"Rajiv",
-            "imgurl":"https://i.ibb.co/nQpRQVF/IMG20200407085843.jpg"
+            "imgurl":"https://i.ibb.co/YX5hykp/IMG20200407085843.jpg",
+            "year":"2025"
         },   
         {
             "Name":"Gaurav",
-            "imgurl":"https://i.ibb.co/jwJx97R/IMG20221125193356.jpg"
+            "imgurl":"https://i.ibb.co/crYQLJX/IMG20221125193356.jpg",
+            "year":"2025"
         },   
         {
             "Name":"Prahsant",
-            "imgurl":"https://i.ibb.co/CMPYHxg/IMG20221127170748.jpg"
+            "imgurl":"https://i.ibb.co/gjZBvNq/IMG20221127170748.jpg",
+            "year":"2025"
         },   
         {
             "Name":"Revathi",
-            "imgurl":"https://i.ibb.co/B2Wp1bG/Kaagaz-20230416-130524742610-1.jpg"
-        }      
-    ],
-    "1st year":[
+            "imgurl":"https://i.ibb.co/ZJ8z8y8/Kaagaz-20230416-130524742610-1.jpg",
+            "year":"2025"
+        },
         {
             "Name":"Lalita",
-            "imgurl":"https://i.ibb.co/bFDSnjz/1d29d989-5b2f-4cbf-993b-04598ad56b70.jpg"
+            "imgurl":"https://i.ibb.co/47LRQVG/1d29d989-5b2f-4cbf-993b-04598ad56b70.jpg",
+            "year":"2026"
         },   
         {
             "Name":"Harshita",
-            "imgurl":"https://i.ibb.co/28SySNQ/hazy.jpg"
+            "imgurl":"https://i.ibb.co/8PPTwKW/hazy.jpg",
+            "year":"2026"
         }, 
         {
             "Name":"Somya",
-            "imgurl":"https://i.ibb.co/XWHxPg5/IMG-4072.jpg"
+            "imgurl":"https://i.ibb.co/qCvN9B9/IMG-4072.jpg",
+            "year":"2026"
         }, 
         {
             "Name":"Lakshita",
-            "imgurl":"https://i.ibb.co/LgbH6hr/IMG-20220929-230535-9271.jpg"
+            "imgurl":"https://i.ibb.co/98d3nnp/IMG-20220929-230535-9271.jpg",
+            "year":"2026"
         }, 
         {
             "Name":"Kajal",
-            "imgurl":"https://i.ibb.co/Zd5KyVC/IMG-20230206-180522-HDR.jpg"
+            "imgurl":"https://i.ibb.co/LtxPNcZ/IMG-20230206-180522-HDR.jpg",
+            "year":"2026"
         }, 
         {
             "Name":"Samarth",
-            "imgurl":"https://i.ibb.co/jLYZx7G/IMG-20230409-223302.jpg"
+            "imgurl":"https://i.ibb.co/y0VMxcz/IMG-20230409-223302.jpg",
+            "year":"2026"
         }, 
         {
-            "Name":"Mansi",
-            "imgurl":"https://i.ibb.co/rxty9dd/IMG-20230320-WA0059.jpg"
+            "Name":"Mansi Sarkar",
+            "imgurl":"https://i.ibb.co/r47vpMG/IMG-20230320-WA0059.jpg",
+            "year":"2026"
         }, 
         {
             "Name":"Pragya",
-            "imgurl":"https://i.ibb.co/0rw4Wj5/IMG-20230416-WA0003.jpg"
+            "imgurl":"https://i.ibb.co/s9xKTMT/IMG-20230416-WA0003.jpg",
+            "year":"2026"
         }, 
         {
-            "Name":"Mansi",
-            "imgurl":"https://i.ibb.co/Mc6sYpD/IMG-20230429-WA0011.jpg"
-        } 
+            "Name":"Mansi Chauhan",
+            "imgurl":"https://i.ibb.co/S6Rqt3H/IMG-20230429-WA0011.jpg",
+            "year":"2026"
+        },
+        {
+            "Name":"Himanshi",
+            "imgurl":"https://i.ibb.co/C1K1GVq/Screenshot-2023-06-06-20-00-29-596-com-miui-gallery.jpg",
+            "year":"2026"
+        },
+        {
+            "Name":"Chaavi",
+            "imgurl":"https://i.ibb.co/4F5g3Jk/Screenshot-2023-06-06-19-59-45-715-com-miui-gallery.jpg",
+            "year":"2026"
+        }
+        
+
     ]
 }
