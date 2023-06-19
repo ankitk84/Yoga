@@ -31,10 +31,11 @@
 .name{
     color: black;
     font-size: 25px;
+    margin-bottom: 2px;
 }
 .font{
     font-size: 14px;
-    margin: 0px 10px;
+    margin: 0px 8px;
 }
 .asanaimg{
     width: 70%;
@@ -42,6 +43,7 @@
     box-shadow: rgba(15, 89, 170, 0.25) 0px 30px 60px -12px inset, rgba(3, 23, 38, 0.3) 0px 18px 36px -18px inset;
     border-radius: 20px;
     margin: 15px;
+    margin-bottom: 10px;
     margin-top: 0px;
 }
 
@@ -57,17 +59,18 @@
     text-decoration: none;
     box-shadow: rgba(83, 61, 205, 0.16) 0px 10px 36px 0px, rgba(50, 43, 192, 0.06) 0px 0px 0px 1px;
     border-radius: 20px;
-    transition: 2s;
+    transition: 1s;
 }
 .asana:hover{
-    color: rgb(136, 148, 213);
-    opacity: 0.4;
+    color: rgb(157, 167, 221);
+    opacity: 0.5;
+    transform: scale(1.03);
 }
 .onhover{
     position: relative;
     bottom: 250px;
     left: 130px;
-    transition: 2s;
+    transition: 1s;
 
 }
 .onhover:hover{

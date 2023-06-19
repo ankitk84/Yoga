@@ -1,6 +1,5 @@
 .asanaName{
     font-size: 2.5rem;
-
 }
 .asanaImg{
     height: 400px;
@@ -26,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 /* Media-queries
@@ -34,18 +33,34 @@
 
  @media screen and (max-width: 1000px) {
     .asanaImg{
-        width: 65%;
+        width: 75%;
     }
     .content{
-        width: 55%;
+        width: 75%;
+    }
+    .components{
+        margin-bottom: 0px;
+    }
+    .rightCompo{
+        flex-direction: column;
     }
  }
  @media screen and (max-width: 600px) {
     .asanaImg{
-        width: 80%;
+        width: 85%;
+        height: 40%;
+        margin: 5px;
     }
     .content{
-        width: 75%;
+        width: 80%;
         font-size: 15px;
+    }
+ }
+ @media screen and (max-width: 400px) {
+    .asanaName{
+        font-size: 2.0rem;
+    }
+    .content{
+        margin: 10px;
     }
  }
