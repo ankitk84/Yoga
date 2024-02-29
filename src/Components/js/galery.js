@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/gallery.css";
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 const Gallery = (props) => {
   const navigate = useNavigate();
   const showImage = (image) => {
@@ -33,6 +33,7 @@ const Gallery = (props) => {
         className="perVideo"
         src={props.videolink}
         frameborder="0"
+        title="1"
       ></iframe>
     </div>
   );

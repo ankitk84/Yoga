@@ -1,7 +1,7 @@
 import Navbar from './Components/js/navbar'
 import Home from './Components/js/Home'
 import Footer from './Components/js/Footer'
-import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
+import {  Routes, Route} from 'react-router-dom';
 import Forward from './Components/js/forward';
 import Backward from './Components/js/backward';
 import Balancing from './Components/js/balancing';
@@ -11,8 +11,8 @@ import Performance from './Components/js/performance';
 import Contact from './Components/js/contact';
 import Members from './Components/js/other'
 import AsanaImage from './Components/js/asanaImage'
-import { useSelector } from 'react-redux';
-import data from "./Components/data/database.json"
+// import { useSelector } from 'react-redux';
+// import data from "./Components/data/database.json"
 
 function App() {
   return (

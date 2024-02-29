@@ -20,10 +20,11 @@ export default function AsanDetail() {
       asanData=data.streching;
       break;
     }
+    
     }
   return (
     <>
-    { option!=-1?
+    { option!==-1?
     <div style={{display:'flex',
     marginTop:'10px', alignItems:"center"}}>
     <div className="components">
@@ -31,7 +32,7 @@ export default function AsanDetail() {
       <p className='asanaName'>{asanData[option].name}</p>
       </div>
       <div className="rightCompo">
-      <img className='asanaImg'  src={asanData[option].imgurl}></img>
+      <img className='asanaImg' alt='img' src={asanData[option].imgurl}></img>
       <p className='content' >{asanData[option].compdes}</p>
       </div>
       </div>

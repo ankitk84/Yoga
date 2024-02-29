@@ -17,7 +17,7 @@ export default function Streching() {
     <div className='asanacard' style={{display:'flex'}}>
     {
         data.streching.map((ele,ind)=>
-            <Asana ind={ind} hover={ind==option?true:false} img={ele.imgurl} name={ele.name} key={ind} alt={ele.alt}
+            <Asana ind={ind} hover={ind===option?true:false} img={ele.imgurl} name={ele.name} key={ind} alt={ele.alt}
 bottomText={ele.smalldes} linkC={ele.linkC}/> 
         )
     }

@@ -8,15 +8,16 @@ export default function Navbar() {
   
   const setPathForOther = (name)=>{
     navigate(`/${name}`)
+    // eslint-disable-next-line
   }
   return (
     
       <div className="nav">
         <div className="left">
-            <img className='logo' src={"https://i.ibb.co/T4wW0Hd/nitlogo.png"} />
+            <img className='logo' src={"https://i.ibb.co/T4wW0Hd/nitlogo.png"} alt='img' />
             <div className="header">
             <span>YOGA TEAM</span><br/>
-            <a className='item' href='https://nitkkr.ac.in/' target='_blank'>National Institute of Technology, Kurukshetra</a>
+            <a className='item' href='https://nitkkr.ac.in/'>National Institute of Technology, Kurukshetra</a>
             </div>
         </div>
         <div className="right">
