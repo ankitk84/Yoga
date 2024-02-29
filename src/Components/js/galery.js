@@ -64,13 +64,14 @@ const Gallery = (props) => {
         }}
       >
         {props.images.map((image_, index) => (
-          <img
-            key={index}
-            className="galleryimg"
-            src={image_.imgurl}
-            onClick={() => showImage(image_.imgurl)}
-            alt={`Image ${index}: ${image_.description}`}
-          />
+         <img
+         key={index}
+         className="galleryimg"
+         src={image_.imgurl}
+         onClick={() => showImage(image_.imgurl)}
+         alt={` ${index}: ${image_.description}`}
+       />
+       
         ))}
       </div>
       <iframe
