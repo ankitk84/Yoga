@@ -17,7 +17,7 @@ export default function Contact() {
         </div>
 
         <div className="detail sbtn">
-        <a><button className="submitbtn">Submit</button></a>
+        <button className="submitbtn">Submit</button>
         </div>
         <div>
         <p className='mail'>You Can mail us on <a style={{textDecoration:'none'}} href="mailto:yoganitkkr@gmail.com">yoganitkkr@gmail.com</a></p>
