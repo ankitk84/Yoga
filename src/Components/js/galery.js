@@ -46,8 +46,8 @@ import { useNavigate } from "react-router-dom";
 const Gallery = (props) => {
   const navigate = useNavigate();
 
-  const showImage = (image) => {
-    navigate("/asanaimage", { state: image });
+  const showImage = (image_) => {
+    navigate("/asanaimage", { state: image_ });
   };
 
   return (
@@ -63,13 +63,13 @@ const Gallery = (props) => {
           borderRadius: "10px",
         }}
       >
-        {props.images.map((image, index) => (
+        {props.images.map((image_, index) => (
           <img
             key={index}
             className="galleryimg"
-            src={image.imgurl}
-            onClick={() => showImage(image.imgurl)}
-            alt={`Image ${index}: ${image.description}`}
+            src={image_.imgurl}
+            onClick={() => showImage(image_.imgurl)}
+            alt={`Image ${index}: ${image_.description}`}
           />
         ))}
       </div>
